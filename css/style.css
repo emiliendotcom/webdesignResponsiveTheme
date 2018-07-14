@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(https://fonts.gstatic.com/s/varelaround/v9/w8gdH283Tvk__Lua32TysjIfp8uPLdshZg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.row,
+body,
+footer,
+header,
+main {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+p {
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+h3 {
+    border-bottom: 1px solid;
+}
+h1, h2, h3, h4 {
+    color: #003f8a;
+}
+.navbar-light,
+.dropdown-menu {
+    background-color: #b9d5ff!important;
+    border-bottom: 1px solid;
+    color: #003f8a;
+}
+
+.navbar-light a {
+    color: #003f8a !important
+}
+
+main {
+    background-color: white;
+    color: #4567b9;
+}
+
+strong {
+    color: #003F8A;
+}
+
+.citation {
+    font-style: italic;
+    font-size: 2em;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.navbar-nav {
+    color: white !important
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header a {
+    font-size: 0.8em;
+}
+
+header a:hover{
+    border-bottom: 1px dashed;
+}
+
+header a.dropdown-item:hover {
+    background-color: inherit !important
+}
+
+#container {
+    margin-top: 72px !important;
+    margin-bottom: 63px !important
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #b9d5ff;
+    border-top: 1px solid #003f8a;
+    padding: 15px;
+    color: #003f8a;
+}
+
+footer p {
+    padding-top: 50px !important;
+}
+
+.index p {
+    text-align: justify
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #fff
+}
+
+.container {
+    padding: 5px !important;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.5em;
+    filter: drop-shadow(5px 5px 5px black);
+    transform: translate(-50%, -50%)
+}
+
+.container {
+    transition: all .7s ease
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: inherit
+}
+
+form {
+    text-align: center
+}
+
+label,
+input {
+    margin: 10px
+}
+
+address {
+    margin-top: 25px;
+}
+
+.index {
+    margin-top: 20px !important
+}
+
+a {
+    font-weight: 700
+}
+
+i {
+    font-style: italic !important;
+    font-size: .7em
+}
+
+.fa {
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%
+}
+
+footer p {
+    padding: 5px !important
+}
+
+.fa:hover {
+    opacity: .7
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: #fff;
+    font-size: 1.5em;
+    transition: all .3s ease;
+}
+
+.fa-facebook:hover {
+    text-decoration: none;
+}
+
+header a.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5em;
+    border: 1px solid #003f8a;
+    background-color: white;
+}
+
+header a.btn:hover {
+    background-color: #003f8a;
+    color: white !important;
+    border: 1px solid white;
+}
+
+.clim,
+.chauff,
+.menuis,
+.solaire {
+    height: 250px;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.clim img {
+    float: right;
+}
+
+.clim {
+    background-color: #00add7;
+    transition: all .5s ease;
+}
+
+.chauff {
+    background-color: #8b2a2c;
+    transition: all .5s ease;
+}
+
+.menuis {
+    background-color: #f9b621;
+    transition: all .5s ease;
+}
+
+.solaire {
+    background-color: #41a62d;
+    transition: all .5s ease;
+}
+
+.bandeau {
+    padding: 15px;
+    background-color: #003f8a;
+    color: white;
+    font-size: 1.5em;
+}
+
+li a.fa {
+    color: white !important;
+}
+
+@media only screen and (min-width:1279px) {
+    #redim {
+        width: 80% !important;
+        margin-left: auto !important;
+        margin-right: auto !important
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .clim:hover,
+    .chauff:hover,
+    .menuis:hover,
+    .solaire:hover {
+        background-color: #003f8a;
+        text-indent: -40px !important;
+    }
+    .zen {
+        margin-bottom: 20px;
+    }
+    .clim,
+    .chauff,
+    .menuis,
+    .solaire {
+        height: 120px;
+        width: 100%;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .clim img,
+    .chauff img,
+    .menuis img,
+    .solaire img {
+        height: 120px !important;
+        width: auto !important;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        overflow: hidden !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .clim p,
+    .chauff p,
+    .menuis p,
+    .solaire p {
+        color: white;
+        font-size: 2em;
+        margin: auto !important;
+        padding: 50px !important;
+        position: absolute;
+        z-index: 2;
+        text-shadow: 2px 2px 2px black;
+    }
+    .bandeau {
+        font-size: 1em;
+    }
+    
+    .cachebouton {
+        display: none;
+    }
+}
+
+p.indente{
+    text-indent: 50px;
+}
+
+.zen img {
+    padding: 0;
+}
+@media only screen and (min-width:601px) {
+    .clim:hover,
+    .chauff:hover,
+    .menuis:hover,
+    .solaire:hover {
+        background-color: #003f8a;
+        text-indent: 100px !important;
+        text-shadow: 2px 2px 2px black;
+    }
+    .zen {
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
+    .zen p {
+        padding-bottom: 0px !important;
+        margin-bottom: 0 !important;
+        padding-top: 10px !important;
+        color: #003f8a;
+    }
+    .clim p,
+    .chauff p,
+    .menuis p,
+    .solaire p {
+        color: white;
+        font-size: 2em;
+        margin: auto !important;
+        padding: 100px !important;
+        position: absolute;
+        z-index: 2;
+        text-shadow: 2px 2px 2px black;
+    }
+    .clim img,
+    .chauff img,
+    .menuis img,
+    .solaire img {
+        min-height: 250px;
+        width: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
